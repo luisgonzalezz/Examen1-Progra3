@@ -74,8 +74,7 @@ class Figura
   virtual string getTipo()
   {  return "Figura";}
 
-  virtual int getArea()
-  {}
+  virtual int getArea()=0;
 
 };
 
